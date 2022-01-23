@@ -16,8 +16,7 @@ export default {
 
   addDatabase: 'Add Database',
   addDatabaseSuccess: 'Add Database successfully',
-  addDatabaseSuccessGuide:
-    'Go to the data source list to view the database just added',
+  addDatabaseSuccessGuide: 'Go to the data source list to view the database just added',
 
   updateDatabase: {
     getDatabaseInfoError: 'Get database info failed',
@@ -28,7 +27,9 @@ export default {
   dataSourceForm: {
     name: 'Instance Name',
     describe: 'Describe',
+    type: 'Type',
     ip: 'Ip',
+    ipTips: 'IP or Domain',
     port: 'Port',
     user: 'User',
     password: 'Password',
@@ -36,10 +37,15 @@ export default {
     ruleTemplate: 'Rule Template',
     workflow: 'Workflow',
 
+    passwordTips: '这里不会显示您已经配置的当前数据库密码，提交时如果您没有填写密码，那么将不会对数据库密码进行变更。',
     testDatabaseConnection: 'Test database connectivity',
     testing: 'Trying to connect...',
     testSuccess: 'Database connectivity test succeeded',
     testFailed: 'Failed to link to the database',
+  },
+
+  testConnectModal: {
+    errorTitle: '数据库{{instanceName}}连通性测试失败',
   },
 
   deleteDatabase: {

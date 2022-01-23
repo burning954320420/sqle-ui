@@ -3,7 +3,8 @@ export default {
   pageTitle: '用户管理',
   pageDesc:
     '你可以在这里管理平台的用户，用户只能看到或操作其已绑定的所有角色中包含的数据源。',
-  userListTitle: '用户列表',
+  
+    userListTitle: '用户列表',
 
   createUser: {
     button: '创建用户',

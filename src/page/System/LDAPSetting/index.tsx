@@ -88,7 +88,7 @@ const LDAPSetting = () => {
     <Card title={t('system.title.ldap')} loading={loading}>
       <section hidden={modifyFlag}>
         <Descriptions>
-          <Descriptions.Item label={t('system.ldap.enableLadp')} span={3}>
+          <Descriptions.Item label={t('system.ldap.enableLdap')} span={3}>
             {ldapSetting?.enable_ldap ? t('common.open') : t('common.close')}
           </Descriptions.Item>
           <Descriptions.Item label={t('system.ldap.ldapServerHost')} span={3}>
@@ -129,7 +129,7 @@ const LDAPSetting = () => {
         onFinish={handleSubmit}
       >
         <Form.Item
-          label={t('system.ldap.enableLadp')}
+          label={t('system.ldap.enableLdap')}
           name="enable_ldap"
           valuePropName="checked"
         >
@@ -139,7 +139,7 @@ const LDAPSetting = () => {
           label={t('system.ldap.ldapServerHost')}
           name="ldap_server_host"
         >
-          <Input placeholder={t('common.form.placeholder.input')} />
+          <Input placeholder="Example: ldap://192.168.1.1" />
         </Form.Item>
         <Form.Item
           label={t('system.ldap.ldapServerPort')}

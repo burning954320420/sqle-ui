@@ -9,7 +9,10 @@ export default {
   progressManage: 'Progress',
   systemSetting: 'System Setting',
   workflow: 'Workflow',
-  order: 'Order List',
+  order: 'Order',
+  orderList: 'Order List',
   orderDetail: 'Order Detail',
-  whitelist:'Whitelist'
+  whitelist:'Whitelist',
+  auditPlane: 'Audit plane',
+  auditPlaneList: 'Audit plane list',
 };

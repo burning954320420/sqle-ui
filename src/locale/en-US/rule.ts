@@ -10,5 +10,6 @@ export default {
   disableRules: 'Disable rules of {{name}}',
   form: {
     instance: 'Select Instance',
+    dbType: 'Database type',
   },
 };

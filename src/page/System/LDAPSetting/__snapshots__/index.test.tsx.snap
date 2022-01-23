@@ -178,7 +178,7 @@ exports[`System/LdapConfig should get ldap setting from origin 2`] = `
                       <span
                         class="ant-descriptions-item-label"
                       >
-                        system.ldap.enableLadp
+                        system.ldap.enableLdap
                       </span>
                       <span
                         class="ant-descriptions-item-content"
@@ -369,9 +369,9 @@ exports[`System/LdapConfig should get ldap setting from origin 2`] = `
             <label
               class=""
               for="enable_ldap"
-              title="system.ldap.enableLadp"
+              title="system.ldap.enableLdap"
             >
-              system.ldap.enableLadp
+              system.ldap.enableLdap
             </label>
           </div>
           <div
@@ -917,7 +917,7 @@ exports[`System/LdapConfig should update ldap setting after user update from 1`]
                       <span
                         class="ant-descriptions-item-label"
                       >
-                        system.ldap.enableLadp
+                        system.ldap.enableLdap
                       </span>
                       <span
                         class="ant-descriptions-item-content"
@@ -1108,9 +1108,9 @@ exports[`System/LdapConfig should update ldap setting after user update from 1`]
             <label
               class=""
               for="enable_ldap"
-              title="system.ldap.enableLadp"
+              title="system.ldap.enableLdap"
             >
-              system.ldap.enableLadp
+              system.ldap.enableLdap
             </label>
           </div>
           <div
